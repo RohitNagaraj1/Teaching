@@ -30,16 +30,34 @@ public class Student
 		totalMark = t;
 	}
 
+	public static void Display()
+	{
+		//Student s1 = new Student();
+		System.out.println("Hello Inside Student class");
+		//System.out.println(s1.id);
+	}
+
 	public static void main(String[] args)
 	{
 		System.out.println("Static Method");
 		Student student = new Student(5, "Akshay", "ABC", 90);
+		Student student2 = new Student();
 
 		System.out.println("id " + student.id);
 		System.out.println("name  " + student.name);
 		System.out.println("address  " + student.address);
 		System.out.println("totalMark  " + student.totalMark);
 		System.out.println("CalculateGrade  " + student.CalculateGrade());
+
+		System.out.println("id " + student2.id);
+		System.out.println("name  " + student2.name);
+		System.out.println("address  " + student2.address);
+		System.out.println("totalMark  " + student2.totalMark);
+		System.out.println("CalculateGrade  " + student2.CalculateGrade());
+		
+
+		Display();
+		Student.Display();
 	}
 
 }
