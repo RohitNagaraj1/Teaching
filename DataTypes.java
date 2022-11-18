@@ -17,7 +17,7 @@ public class DataTypes {
         //long - 8 BYTE -- 64 bit
         // char - 1 BYTE -- 8 bit -- ASCII
 
-
+        System.out.println("Byte Min = " + Integer.toBinaryString(-3));
 
         Byte a = 50;
         Byte b = (byte) (a + 10);
@@ -28,11 +28,11 @@ public class DataTypes {
         // 00001010
         // 10001001
 
-        /* System.out.println("Byte Min = " + Integer.toBinaryString(Byte.MAX_VALUE));
+        System.out.println("Byte Min = " + Integer.toBinaryString(Byte.MAX_VALUE));
         System.out.println("Byte Min = " + Integer.toBinaryString(Byte.MIN_VALUE));
 
         String temp = Integer.toBinaryString(Character.MAX_VALUE);
-        System.out.println(Integer.parseInt(temp, 2)); */
+        System.out.println(Integer.parseInt(temp, 2)); 
 
         // 00000000
         // 01111111
