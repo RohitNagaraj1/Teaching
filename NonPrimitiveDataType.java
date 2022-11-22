@@ -2,8 +2,8 @@ public class NonPrimitiveDataType {
 
     public static void main(String[] args) 
     {
-    //    int num =  Integer.parseInt("10", 16);
-    //    System.out.println(num);
+       int num =  Integer.parseInt("1b701da1", 16); // 460332449
+       System.out.println(num);
     //    num = Integer.parseInt("10", 2);
     //    System.out.println(num);
     //    num = Integer.parseInt("10", 8);
